@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin-top: -250px;
+}
+
+.home-tab-header {
+  color: white;
+  display: block;
+  margin: auto;
+  padding-top: 37px;
+  padding-left: 20px;
+}
+
+.home-tab-button {
+  width: 125px;
+  float: left;
+  height: 19px;
+}
+
+.home-tab-button .icon {
+  margin-top: -3px;
+  position: absolute;
+}
+
+.menu-option {
+  cursor: pointer;
+}
+
+.home-tab-content {
+  margin-top: 34px;
+  margin-bottom: 30px;
+}
+
+.home-item {
+  flex: 0 0 1 auto auto;
+  max-width: 1000px;
+  width: 100%;
+}

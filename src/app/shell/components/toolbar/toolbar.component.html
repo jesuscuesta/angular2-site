@@ -1,0 +1,8 @@
+<ul [ngClass]="{'responsive': clickResponsive, 'topnav': true}" id="myTopnav">
+  <li><a [routerLink]="routes.HOME.path" routerLinkActive="active">Home</a></li>
+  <li><a [routerLink]="routes.ABOUT_US.path" routerLinkActive="active">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" (click)="clickResponsive = !clickResponsive">&#9776;</a>
+  </li>
+</ul>
+<span class="shellBackground"></span>

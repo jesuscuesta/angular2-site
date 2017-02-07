@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  color: black;
+  flex: 1;
+  padding: 8em;
+  align-items: center;
+}
+
+section {
+  text-align: center;
+  .no-content__message {
+    font-size: 4em;
+    margin-top: 0px;
+  }
+
+  p {
+    font-size:2em;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+
+
+
+
+
+

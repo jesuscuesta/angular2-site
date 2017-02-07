@@ -1,0 +1,27 @@
+<div class="home-container">
+  <div class="home-item">
+    <home-logo></home-logo>
+  </div>
+  <div class="home-item">
+    <div class="home-tab-header">
+      <div class="home-tab-button" (click)="tabActive = 'features'">
+        <span class="menu-option">Features</span>
+        <span class="icon"><i class="material-icons">fingerprint</i></span>
+      </div>
+      <div class="home-tab-button" (click)="tabActive = 'technologies'">
+        <span class="menu-option">Technologies</span>
+        <span class="icon"><i class="material-icons">code</i></span>
+      </div>
+    </div>
+    <div class="home-tab-content">
+      <image-list 
+        *ngIf="tabActive === 'features'" 
+        [elements]="features"
+        [filterValue]="'title'"></image-list>
+      <image-list 
+        *ngIf="tabActive === 'technologies'" 
+        [elements]="techs"
+        [filterValue]="'title'"></image-list>
+    </div>
+  </div>
+</div>

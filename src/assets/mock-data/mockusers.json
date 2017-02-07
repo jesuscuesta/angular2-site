@@ -1,0 +1,47 @@
+[
+  {
+    "title": "David Chavarri",
+    "image": "/assets/img/team/david-min.jpg",
+    "description": "React Ninja"
+  },
+  {
+    "title": "Arturo Zarzalejo",
+    "image": "/assets/img/team/arturo-min.jpg",
+    "description": "Sexy Fantasy"
+  },
+  {
+    "title": "José Bermudo",
+    "image": "/assets/img/team/josh-min.jpg",
+    "description": "Sorcerer code level 20"
+  },
+  {
+    "title": "Jesús Cuesta",
+    "image": "/assets/img/team/jesus-min.jpg",
+    "description": "Dragon killer"
+  },
+  {
+    "title": "Máximo García",
+    "image": "/assets/img/team/max-min.jpg",
+    "description": "Sexy Code Hunter"
+  },
+  {
+    "title": "Oscar Galea",
+    "image": "/assets/img/team/oscar-min.jpg",
+    "description": "Runner code"
+  },
+  {
+    "title": "Juan Carlos Díez",
+    "image": "/assets/img/team/jc-min.jpg",
+    "description": "Pixel Hunter"
+  },
+  {
+    "title": "Luis Martínez",
+    "image": "/assets/img/team/luis-min.jpg",
+    "description": "React Ninja"
+  },
+  {
+    "title": "Fran Quintero",
+    "image": "/assets/img/team/fran-min.jpg",
+    "description": "Samurai"
+  }
+]
